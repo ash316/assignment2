@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/NetbeansWS/Assignment2/src/java/au/edu/latrobe/client/WeatherHelper.java</file>
+            <file>file:/E:/NetbeansWS/Assignment2/build/generated-sources/jax-ws/au/edu/latrobe/ws/client/ext/Weather.java</file>
+            <file>file:/E:/NetbeansWS/Assignment2/src/java/au/edu/latrobe/web/RequestProcessor.java</file>
+            <file>file:/E:/NetbeansWS/Assignment2/src/java/au/edu/latrobe/client/WSClientUtil.java</file>
+            <file>file:/E:/NetbeansWS/Assignment2/web/WEB-INF/wsdl/Weather.wsdl</file>
+            <file>file:/E:/NetbeansWS/Assignment2/src/java/au/edu/latrobe/client/WeatherClient.java</file>
+        </group>
+    </open-files>
+</project-private>

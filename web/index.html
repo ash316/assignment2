@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator Web Service Client</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #wstable {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                width: 50%;
+                border-collapse: collapse;
+            }
+
+            #wstable td, #wstable th {
+                font-size: 1em;
+                border: 1px solid #98bf21;
+                padding: 3px 7px 2px 7px;
+            }
+
+            #wstable th {
+                font-size: 1.1em;
+                text-align: left;
+                padding-top: 5px;
+                padding-bottom: 4px;
+                background-color: #A7C942;
+                color: #ffffff;
+            }
+
+            #wstable tr.alt td {
+                color: #000000;
+                background-color: #EAF2D3;
+            }
+        </style>    
+    </head>
+    <body>
+        <form name="wsRequest" action="RequestProcessor">
+            <center>
+        <h1>Welcome to Calculator Web Service Client.</h1>
+        <table id="wstable">
+            <thead>
+                <th>Operation</th>
+                <th>Operand 1</th>
+                <th>Operand 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <select name="operation">
+                            <option value="1">add</option>
+                            <option value="2">subtract</option>
+                            <option value="3">multiply</option>
+                            <option value="4">divide</option>
+                        </select>
+                    </td>
+                    <td><input type="number" name="operand1"></td>
+                    <td><input type="number" name="operand2"></td>
+                </tr>
+                <tr  style="align:centre">
+                    <td colspan="3">
+                        <input type="Submit" value="Run">
+                    </td>
+                    
+                </tr>
+                    
+                
+            </tbody>
+        </table>
+            </center>
+        </form>
+    </body>
+</html>
