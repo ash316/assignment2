@@ -55,10 +55,10 @@ public class RequestProcessor extends HttpServlet {
             switch(operationName) {
                 //Add Operation
                 case "1":
-                    operationName = "addition";
+                   operationName = "addition";
                    int addResult = calculatorService.add(Integer.parseInt(op1), Integer.parseInt(op2));
                    wsResult = String.valueOf(addResult);
-                    break;
+                   break;
                 case "2":
                     //Sub Operation
                     operationName = "subtract";
@@ -130,7 +130,9 @@ public class RequestProcessor extends HttpServlet {
         String paramValue = request.getParameter(paramName);
         return paramValue;
     }
-    
+    /**
+    * Function to validate the given input.
+    */
     private boolean isValid(String op1, String op2) {
         if(op1 == null || op2 == null) {
             return false;

@@ -9,7 +9,7 @@ import au.edu.latrobe.ws.client.ext.Weather;
 import au.edu.latrobe.ws.client.ext.WeatherSoap;
 
 /**
- *
+ * Client class for calling Weather Web Service.
  */
 public class WSClientUtil {
     
